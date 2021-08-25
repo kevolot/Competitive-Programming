@@ -26,9 +26,9 @@ public class Solution {
                 if (directions == "North") {
                     directions = "West";
                 } else if (directions == "South") {
-                    directions = "South";
-                } else if (directions == "West") {
                     directions = "East";
+                } else if (directions == "West") {
+                    directions = "South";
                 } else if (directions == "East") {
                     directions = "North";
                 }
