@@ -14,4 +14,14 @@ public class Library {
     }
     return !flag;
   }
+
+  public boolean isPalindromic(int number) {
+    String num = String.valueOf(number);
+    // System.out.println("The number is " + num);
+    if (num.equals(new StringBuffer(num).reverse().toString())) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
